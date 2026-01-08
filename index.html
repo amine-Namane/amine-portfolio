@@ -1,0 +1,1255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>M.Namane - Personal Portfolio</title>
+
+    <!--
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/logo.ico"
+      type="image/x-icon"
+    />
+
+    <!--
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!--
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!--
+    - #MAIN
+  -->
+
+    <main>
+      <!--
+      - #SIDEBAR
+    -->
+
+      <aside class="sidebar" data-sidebar>
+        <div class="sidebar-info">
+          <figure class="avatar-box">
+            <img
+              src="./assets/images/bourouaiah.png"
+              alt="Mohamed Amine Namane"
+            />
+          </figure>
+
+          <div class="info-content">
+            <h1 class="name" title="A. Bourouaiah">M. Namane</h1>
+
+            <p class="title">Software Engineer</p>
+          </div>
+
+          <button class="info_more-btn" data-sidebar-btn>
+            <span>Show Contacts</span>
+
+            <ion-icon name="chevron-down"></ion-icon>
+          </button>
+        </div>
+
+        <div class="sidebar-info_more">
+          <div class="separator"></div>
+
+          <ul class="contacts-list">
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="mail-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Email</p>
+
+                <a href="mailto:abdoubrh26@gmail.com" class="contact-link"
+                  >aminenamane258@gmail.com</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Phone</p>
+
+                <a href="tel:+213553329164" class="contact-link"
+                  >+(213) 562645998</a
+                >
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="calendar-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Birthday</p>
+
+                <time datetime="2003-11-19">march 08, 2003</time>
+              </div>
+            </li>
+
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+
+                <address>Larbaa, Blida, DZ</address>
+              </div>
+            </li>
+          </ul>
+
+          <div class="separator"></div>
+
+          <ul class="social-list">
+            <li class="social-item">
+              <a href="https://github.com/amine-Namane" class="social-link">
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+            </li>
+
+            <li class="social-item">
+              <a
+                href="https://www.linkedin.com/in/amine-namane-7a9ba1226/"
+                class="social-link"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+            </li>
+            <!-- <li class="social-item">
+              <a
+                href="https://drive.google.com/file/d/1wSPg6blEqEGF88UoxFhAfwjAcvcmrY1I/view?usp=sharing"
+                class="social-link"
+              >
+                <ion-icon name="document"></ion-icon>
+              </a>
+            </li> -->
+          </ul>
+        </div>
+      </aside>
+
+      <!--
+      - #main-content
+    -->
+
+      <div class="main-content">
+        <!--
+        - #NAVBAR
+      -->
+
+        <nav class="navbar">
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <button class="navbar-link active" data-nav-link>About</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Resume</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Portfolio</button>
+            </li>
+
+            <li class="navbar-item">
+              <button class="navbar-link" data-nav-link>Contact</button>
+            </li>
+          </ul>
+        </nav>
+
+        <!--
+        - #ABOUT
+      -->
+
+        <article class="about active" data-page="about">
+          <header>
+            <h2 class="h2 article-title">About me</h2>
+          </header>
+
+          <section class="about-text">
+            <p>
+              I am a Software Engineer specializing in modern web development,
+              creating fast, scalable, and intuitive digital experiences. With
+              strong skills in front-end technologies and a solid understanding
+              of full-stack principles, I focus on building high-quality
+              interfaces, seamless user flows, and reliable web applications.
+              Passionate about clean architecture, performance, and user-centric
+              design, I continuously explore new tools and technologies to
+              deliver impactful solutions that help businesses grow and succeed.
+            </p>
+          </section>
+
+          <!--
+          - service
+        -->
+
+          <section class="service">
+            <h3 class="h3 service-title">What i'm doing</h3>
+
+            <ul class="service-list">
+              <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-dev.svg"
+                    alt="Web development icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Web development</h4>
+
+                  <p class="service-item-text">
+                    High-quality development of sites at the professional level.
+                  </p>
+                </div>
+              </li>
+
+              <!-- <li class="service-item">
+                <div class="service-icon-box">
+                  <img
+                    src="./assets/images/icon-app.svg"
+                    alt="mobile app icon"
+                    width="40"
+                  />
+                </div>
+
+                <div class="service-content-box">
+                  <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                  <p class="service-item-text">
+                    Professional development of applications for iOS and
+                    Android.
+                  </p>
+                </div>
+              </li> -->
+            </ul>
+          </section>
+
+          <!--
+          - testimonials
+        -->
+
+          <section class="testimonials">
+            <h3 class="h3 testimonials-title">Testimonials</h3>
+
+            <ul class="testimonials-list has-scrollbar">
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/bekour.png"
+                      alt="Belkacem Bekkour"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Belkacem Bekkour
+                  </h4>
+
+                  <p class="testimonials-role">AI Researcher</p>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      I had the privilege of working with Abdelaziz Bourouaiah
+                      at the Institute of Electrical Engineering in Boumerdes,
+                      where he excelled as a mentor for web developers within
+                      the Inelectron Student Club. Abdelaziz is a skilled React
+                      Native Developer known for his meticulous approach to
+                      mobile app development and his ability to lead and educate
+                      others. His technical expertise and dedication to
+                      fostering a collaborative environment significantly
+                      enhanced our projects and team dynamics. I highly
+                      recommend Abdelaziz for any team seeking a talented and
+                      proactive developer.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/zerouki.png"
+                      alt="Aghilas Zerrouki"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Aghilas Zerrouki
+                  </h4>
+
+                   <p class="testimonials-role">AI Enthusiast</p>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      I am pleased to recommend Abdelaziz Bourouaih for his
+                      outstanding front-end development skills. I have had the
+                      pleasure of working with Abdelaziz and have been
+                      consistently impressed by his ability to create clean,
+                      user-friendly, and visually appealing interfaces. In
+                      addition to his strong foundation in HTML, CSS, and
+                      JavaScript, he has a solid command of tools such as Figma
+                      for UI/UX design and Firebase for backend integration,
+                      making him highly versatile in full-stack development. His
+                      skill in translating designs from Figma into fully
+                      functional, high-quality web applications ensures an
+                      exceptional user experience. Abdelaziz’s expertise in
+                      Firebase also allows him to build and maintain dynamic,
+                      scalable applications with ease. Moreover, his proficiency
+                      in modern front-end frameworks such as React and Angular
+                      enables him to deliver efficient, responsive, and
+                      well-structured applications. He consistently stays up to
+                      date with the latest technologies and design trends,
+                      ensuring his work remains innovative and cutting-edge.
+                      With his technical expertise, creativity, and dedication,
+                      I am confident that Abdelaziz Bourouaih will be a valuable
+                      asset to any team or project.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/fetouhi.png"
+                      alt="Yasser Fetouhi"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Yasser Fetouhi
+                  </h4>
+
+                  <p class="testimonials-role">Web Developer</p>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      I had the pleasure of studying with Aziz at IGEE and later
+                      collaborating with him on several web development
+                      projects. His technical expertise, especially in front-end
+                      and app development, was invaluable to the success of our
+                      work. Aziz is a highly skilled developer with a strong
+                      work ethic and an impressive ability to solve complex
+                      problems efficiently. His teamwork, creativity, and
+                      commitment to delivering high-quality results make him a
+                      fantastic asset to any team. I highly recommend Aziz for
+                      any future opportunities.
+                    </p>
+                  </div>
+                </div>
+              </li>
+
+              <li class="testimonials-item">
+                <div class="content-card" data-testimonials-item>
+                  <figure class="testimonials-avatar-box">
+                    <img
+                      src="./assets/images/zeghib.png"
+                      alt="Abdelhafid Zeghib"
+                      width="60"
+                      data-testimonials-avatar
+                    />
+                  </figure>
+
+                  <h4
+                    class="h4 testimonials-item-title"
+                    data-testimonials-title
+                  >
+                    Abdelhafid Zeghib
+                  </h4>
+
+                  <p class="testimonials-role">UI/UX Designer</p>
+
+                  <div class="testimonials-text" data-testimonials-text>
+                    <p>
+                      I highly recommend Abdelaziz for a front-end app developer
+                      position. Having worked with him as my mentor during a web
+                      development workshop, I can confidently attest to his
+                      impressive technical skills, dedication, and
+                      professionalism. He excels at translating design concepts
+                      into functional, visually appealing user interfaces,
+                      demonstrating both strong technical expertise and a keen
+                      eye for design. Abdelaziz’s passion for mentoring, clear
+                      communication, and ability to inspire growth truly set him
+                      apart. He is a collaborative team player who consistently
+                      contributes valuable ideas and helps cultivate a positive,
+                      productive work environment. I am confident that he would
+                      be a tremendous asset to your team and would make
+                      significant contributions to your projects.
+                    </p>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </section>
+
+          <!--
+          - testimonials modal
+        -->
+
+          <div class="modal-container" data-modal-container>
+            <div class="overlay" data-overlay></div>
+
+            <section class="testimonials-modal">
+              <button class="modal-close-btn" data-modal-close-btn>
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img
+                    src="./assets/images/avatar-1.png"
+                    alt="Daniel lewis"
+                    width="80"
+                    data-modal-img
+                  />
+                </figure>
+
+                <img src="./assets/images/icon-quote.svg" alt="quote icon" />
+              </div>
+
+              <div class="modal-content">
+                <h4 class="h3 modal-title" data-modal-title>
+                  Belkacem Bekkour
+                </h4>
+                <div data-modal-text>
+                  <p>
+                    I had the privilege of working with Abdelaziz Bourouaiah at
+                    the Institute of Electrical Engineering in Boumerdes, where
+                    he excelled as a mentor for web developers within the
+                    Inelectron Student Club. Abdelaziz is a skilled React Native
+                    developer, known for his meticulous approach to mobile app
+                    development and his ability to lead and guide others
+                    effectively. His technical expertise and dedication to
+                    fostering a collaborative environment greatly enhanced our
+                    projects and strengthened our team dynamics. I highly
+                    recommend Abdelaziz for any team seeking a talented,
+                    proactive, and reliable developer.
+                  </p>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <!--
+          - clients
+        -->
+
+          <section class="clients">
+            <h3 class="h3 clients-title">Clients</h3>
+
+            <!-- <ul class="clients-list has-scrollbar">
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-1-color.png"
+                    alt="client logo"
+                    style="width: 100px"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-2-color.png"
+                    alt="client logo"
+                    style="width: 150px"
+                  />
+                </a>
+              </li>
+
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-3-color.webp"
+                    alt="client logo"
+                    style="width: 200px"
+                  />
+                </a>
+              </li>
+              <li class="clients-item">
+                <a href="#">
+                  <img
+                    src="./assets/images/logo-4-color.png"
+                    alt="client logo"
+                    style="width: 150px"
+                  />
+                </a>
+              </li>
+            </ul> -->
+          </section>
+        </article>
+
+        <!--
+        - #RESUME
+      -->
+
+        <article class="resume" data-page="resume">
+          <header>
+            <h2 class="h2 article-title">Resume</h2>
+          </header>
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Education</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Institute of Electrical and Electronics Engineers - Boumerdes
+                </h4>
+
+                <span>Sep 2022 — Present</span>
+
+                <p class="timeline-text">
+                  I am pursuing my Master's degree in Computer Engineering at
+                  the University of Boumerdes, focusing on both hardware and
+                  software. The program covers embedded systems, computer
+                  architecture, software development, and network security.
+                  Through complex projects and research, I develop innovative
+                  solutions to real-world challenges, enhancing my technical
+                  skills and analytical abilities to excel in the evolving field
+                  of computer engineering.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <!-- <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Volunteer</h3>
+            </div>
+
+            <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Front End Mentor - Inelectronics Student Club
+                </h4>
+                <span>Oct 2022 — Nov 2024</span>
+                <p class="timeline-text">
+                  Teaching HTML, CSS, and JavaScript to students. Creating
+                  homework and exercises, providing assistance when they face
+                  challenges, and guiding them in creating websites. At the end
+                  of the workshop, students showcase their websites for World
+                  Engineering Day, marking the beginning of their journey in web
+                  development.
+                </p>
+              </li>
+            </ol>
+          </section> -->
+
+          <section class="timeline">
+            <div class="title-wrapper">
+              <div class="icon-box">
+                <ion-icon name="book-outline"></ion-icon>
+              </div>
+
+              <h3 class="h3">Experience</h3>
+            </div>
+
+            <!-- <ol class="timeline-list">
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Front End Developer — Freelance
+                </h4>
+                <span>Jun 2024 — May 2025</span>
+                <p class="timeline-text">
+                  Worked with various clients to design and build responsive
+                  websites, landing pages, and custom front-end features.
+                  Delivered optimized UI components, integrated APIs, improved
+                  performance, and transformed client ideas into functional,
+                  modern digital experiences.
+                </p>
+              </li>
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Front End Developer - Chateer
+                </h4>
+                <span>Oct 2024 — Dec 2024</span>
+                <p class="timeline-text">
+                  Contributing to the launch of Chateer, an AI-powered SaaS
+                  platform revolutionizing customer communication for small
+                  businesses. I build responsive, user-friendly interfaces,
+                  collaborating on integrating cutting-edge AI to streamline
+                  customer interactions, and play a key role in developing a
+                  transformative solution for small business support.
+                </p>
+              </li> -->
+
+              <li class="timeline-item">
+                <h4 class="h4 timeline-item-title">
+                  Front End Developer Intern - SahlSolutions
+                </h4>
+                <span>Jun 2025 — november 2025</span>
+                <p class="timeline-text">
+                  Developing intuitive and responsive user interfaces for
+                  innovative technology solutions at AhlQuran.
+                  Collaborating closely with the design and backend teams to
+                  implement customized features that enhance user experience,
+                  streamline workflows, and contribute to the growth and success
+                  of client-focused digital solutions.
+                </p>
+              </li>
+            </ol>
+          </section>
+
+          <section class="skill">
+            <h3 class="h3 skills-title">My Skills</h3>
+
+            <!-- Front-end -->
+            <h4 class="h4 skill-group-title">Front-end</h4>
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">HTML / CSS</h5>
+                  <data value="85">85%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 85%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">JavaScript</h5>
+                  <data value="80">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">ReactJS / NextJS</h5>
+                  <data value="80">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <!-- <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">VueJS / NuxtJS</h5>
+                  <data value="80">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li> -->
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Tailwind CSS</h5>
+                  <data value="75">75%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 75%"></div>
+                </div>
+              </li>
+            </ul>
+
+            <!-- State management -->
+            <h4 class="h4 skill-group-title">State Management</h4>
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Redux Toolkit</h5>
+                  <data value="65">65%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 65%"></div>
+                </div>
+              </li>
+
+              <!-- <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Pinia</h5>
+                  <data value="65">65%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 65%"></div>
+                </div>
+              </li> -->
+            </ul>
+
+            <!-- Mobile / Cross-platform -->
+            <!-- <h4 class="h4 skill-group-title">Mobile / Cross-platform</h4>
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">React Native / Expo</h5>
+                  <data value="70">70%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+            </ul> -->
+            <!-- Backend -->
+            <h4 class="h4 skill-group-title">Backend</h4>
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Larvel</h5>
+                  <data value="60">60%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Supabase</h5>
+                  <data value="50">60%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Firebase</h5>
+                  <data value="50">50%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 50%"></div>
+                </div>
+              </li>
+            </ul>
+
+            <!-- Other -->
+            <h4 class="h4 skill-group-title">Other</h4>
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Git / Github</h5>
+                  <data value="80">80%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 80%"></div>
+                </div>
+              </li>
+
+              <!-- <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Figma</h5>
+                  <data value="70">70%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li> -->
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">AI Tools</h5>
+                  <data value="70">70%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Vibe Coding</h5>
+                  <data value="70">70%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+            </ul>
+
+            <!-- Engineering & Computer Science -->
+            <h4 class="h4 skill-group-title">Engineering & Computer Science</h4>
+            <ul class="skills-list content-card">
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Object-Oriented Programming (OOP)</h5>
+                  <data value="70">70%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Data Structures & Algorithms</h5>
+                  <data value="65">65%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 65%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Operating Systems</h5>
+                  <data value="70">70%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 70%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Embedded Systems</h5>
+                  <data value="60">60%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">Digital & Advanced Digital Systems</h5>
+                  <data value="65">65%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 65%"></div>
+                </div>
+              </li>
+
+              <li class="skills-item">
+                <div class="title-wrapper">
+                  <h5 class="h5">C / C++ Programming</h5>
+                  <data value="60">60%</data>
+                </div>
+                <div class="skill-progress-bg">
+                  <div class="skill-progress-fill" style="width: 60%"></div>
+                </div>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #PORTFOLIO
+      -->
+
+        <article class="portfolio" data-page="portfolio">
+          <header>
+            <h2 class="h2 article-title">Portfolio</h2>
+          </header>
+
+          <section class="projects">
+            <ul class="filter-list">
+              <li class="filter-item">
+                <button class="active" data-filter-btn>All</button>
+              </li>
+
+              <li class="filter-item">
+                <button data-filter-btn>Web development</button>
+              </li>
+              <!-- <li class="filter-item">
+                <button data-filter-btn>Applications</button>
+              </li> -->
+            </ul>
+
+            <div class="filter-select-box">
+              <button class="filter-select" data-select>
+                <div class="select-value" data-selecct-value>
+                  Select category
+                </div>
+
+                <div class="select-icon">
+                  <ion-icon name="chevron-down"></ion-icon>
+                </div>
+              </button>
+
+              <ul class="select-list">
+                <li class="select-item">
+                  <button data-select-item>All</button>
+                </li>
+
+                <li class="select-item">
+                  <button data-select-item>Web development</button>
+                </li>
+                <!-- <li class="select-item">
+                  <button data-select-item>Applications</button>
+                </li> -->
+              </ul>
+            </div>
+
+            <ul class="project-list">
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://carepluse-9xzy.vercel.app/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/careplus.png"
+                      alt="al-gss"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">MediCare</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://ulamaalmuslmin.netlify.app/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/ulama.png"
+                      alt="payper"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Ulama Al muslmin</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://symphonious-taffy-cb2129.netlify.app/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/forkify.png"
+                      alt="empowerHR"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">forkify</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="ecommerce-sable-eight-83.vercel.app/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/ecommerce.png"
+                      alt="ecommerce"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Shopping Platform</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://nike-shop-inky.vercel.app/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/nike-shop.png"
+                      alt="nike-shop"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Nike Shop</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://interno-eight.vercel.app/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/interno.png"
+                      alt="interno"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Interno</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web develop"
+              >
+                <a href="https://hoo-bank-ruby-six.vercel.app/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/hoo-bank.png"
+                      alt="hoo-bank"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Hoo Bank</h3>
+
+                  <p class="project-category">Web design</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="web development"
+              >
+                <a href="https://fencing-sport.vercel.app/" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/fencing-sport.png"
+                      alt="fencing"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Algerian Fencing Federation</h3>
+
+                  <p class="project-category">Web development</p>
+                </a>
+              </li>
+
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/chat-app.PNG"
+                      alt="chat-app"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Chat app</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+              <li
+                class="project-item active"
+                data-filter-item
+                data-category="applications"
+              >
+                <a href="#" target="_blank">
+                  <figure class="project-img">
+                    <div class="project-item-icon-box">
+                      <ion-icon name="eye-outline"></ion-icon>
+                    </div>
+
+                    <img
+                      src="./assets/images/deliveroo.png"
+                      alt="deliveroo"
+                      loading="lazy"
+                    />
+                  </figure>
+
+                  <h3 class="project-title">Deliveroo</h3>
+
+                  <p class="project-category">Applications</p>
+                </a>
+              </li>
+            </ul>
+          </section>
+        </article>
+
+        <!--
+        - #CONTACT
+      -->
+
+        <article class="contact" data-page="contact">
+          <header>
+            <h2 class="h2 article-title">Contact</h2>
+          </header>
+
+          <section class="mapbox" data-mapbox>
+            <figure>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12240.148805953186!2d3.1502341!3d36.5674808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x128e558a34858019%3A0x3800bb0fe7e27865!2sLarbaa!5e0!3m2!1sen!2sbd!4v1696875983436!5m2!1sen!2sbd"
+                width="600"
+                height="450"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+              >
+              </iframe>
+            </figure>
+          </section>
+
+          <section class="contact-form">
+            <h3 class="h3 form-title">Contact Form</h3>
+
+            <form action="#" class="form" data-form>
+              <div class="input-wrapper">
+                <input
+                  type="text"
+                  name="fullname"
+                  class="form-input"
+                  placeholder="Full name"
+                  required
+                  data-form-input
+                />
+
+                <input
+                  type="email"
+                  name="email"
+                  class="form-input"
+                  placeholder="Email address"
+                  required
+                  data-form-input
+                />
+              </div>
+
+              <textarea
+                name="message"
+                class="form-input"
+                placeholder="Your Message"
+                required
+                data-form-input
+              ></textarea>
+
+              <button class="form-btn" type="submit" disabled data-form-btn>
+                <ion-icon name="paper-plane"></ion-icon>
+                <span>Send Message</span>
+              </button>
+            </form>
+          </section>
+        </article>
+      </div>
+    </main>
+
+    <!--
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!--
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
