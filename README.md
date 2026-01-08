@@ -1,6 +1,6 @@
 <p align="center">
-  <a href="https://github.com/Bourouaiah">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=100&pause=800&color=F70000&center=true&width=435&lines=Bourouaiah" alt="Bourouaiah" /></a>
+  <a href="https://github.com/amine-Namane">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=100&pause=800&color=F70000&center=true&width=435&lines=Bourouaiah" alt="Namane" /></a>
 </p>
 
 <p align="center">
@@ -11,7 +11,7 @@
 <!-- Social icons section -->
 <p align="center">
   &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="https://www.linkedin.com/in/abdelaziz-bourouaiah-7a9ba1226/"><img width="32px" alt="LinkedIn" title="LinkedIn" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"/></a>
+  <a href="[https://www.linkedin.com/in/abdelaziz-bourouaiah-7a9ba1226/](https://www.linkedin.com/in/amine-namane-a89767294/)"><img width="32px" alt="LinkedIn" title="LinkedIn" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
 </p>
 
@@ -19,15 +19,15 @@
 
 - 🌱 I’m currently learning **Advanced React and TypeScript**
 
-- 👯 I’m looking to collaborate on **Web and Mobile App Projects**
+- 👯 I’m looking to collaborate on **Web  App Projects**
 
 - 💬 Ask me about **React, React Native, Firebase, Tailwind CSS, Redux**
 
-- 📫 How to reach me: **abdourh26@gmail.com**
+- 📫 How to reach me: **aminenamane258@gmail.com**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://www.linkedin.com/in/abdelaziz-bourouaiah-7a9ba1226/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="your-linkedin" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/amine-namane-a89767294/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="your-linkedin" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
@@ -42,8 +42,8 @@
   <a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> 
 </p>
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=bourouaiah&show_icons=true&theme=dark&title_color=ffffff&text_color=ffffff&locale=en&layout=compact" alt="bourouaiah" /></p>
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=namane&show_icons=true&theme=dark&title_color=ffffff&text_color=ffffff&locale=en&layout=compact" alt="namane" /></p>
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=bourouaiah&show_icons=true&theme=dark&locale=en" alt="bourouaiah" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=namane&show_icons=true&theme=dark&locale=en" alt="namane" /></p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=bourouaiah&theme=dark" alt="bourouaiah" /></p>
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=namane&theme=dark" alt="namane" /></p>
