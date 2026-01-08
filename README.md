@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/amine-Namane">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=100&pause=800&color=F70000&center=true&width=435&lines=Bourouaiah" alt="Namane" /></a>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=100&pause=800&color=F70000&center=true&width=435&lines=Namane" alt="Namane" /></a>
 </p>
 
 <p align="center">
@@ -11,11 +11,11 @@
 <!-- Social icons section -->
 <p align="center">
   &#8287;&#8287;&#8287;&#8287;&#8287;
-  <a href="[https://www.linkedin.com/in/abdelaziz-bourouaiah-7a9ba1226/](https://www.linkedin.com/in/amine-namane-a89767294/)"><img width="32px" alt="LinkedIn" title="LinkedIn" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"/></a>
+  <a href="[https://www.linkedin.com/in/amine-namane-a89767294/](https://www.linkedin.com/in/amine-namane-a89767294/)"><img width="32px" alt="LinkedIn" title="LinkedIn" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg"/></a>
   &#8287;&#8287;&#8287;&#8287;&#8287;
 </p>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=bourouaiah&label=Profile%20views&color=ff0000&style=flat" alt="bourouaiah" /> </p>
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=namane&label=Profile%20views&color=ff0000&style=flat" alt="namane" /> </p>
 
 - 🌱 I’m currently learning **Advanced React and TypeScript**
 
