@@ -11,68 +11,65 @@
 \*-----------------------------------*/
 
 :root {
-  /**
-   * colors
-   */
-
-  /* gradient */
-
+  /* ====== GRADIENTS ====== */
   --bg-gradient-onyx: linear-gradient(
     to bottom right,
-    hsl(240, 1%, 25%) 3%,
-    hsl(0, 0%, 19%) 97%
+    hsl(225, 20%, 18%) 0%,
+    hsl(225, 25%, 10%) 100%
   );
+
   --bg-gradient-jet: linear-gradient(
       to bottom right,
-      hsla(240, 1%, 18%, 0.251) 0%,
-      hsla(240, 2%, 11%, 0) 100%
+      hsla(230, 25%, 22%, 0.35) 0%,
+      hsla(230, 30%, 10%, 0) 100%
     ),
-    hsl(240, 2%, 13%);
-  --bg-gradient-yellow-1: linear-gradient(
-    to bottom right,
-    hsl(45, 100%, 71%) 0%,
-    hsla(36, 100%, 69%, 0) 50%
+    hsl(230, 25%, 14%);
+
+  --bg-gradient-primary-1: linear-gradient(
+    to right,
+    hsl(250, 85%, 65%),
+    hsl(210, 90%, 60%)
   );
-  --bg-gradient-yellow-2: linear-gradient(
-      135deg,
-      hsla(45, 100%, 71%, 0.251) 0%,
-      hsla(35, 100%, 68%, 0) 59.86%
-    ),
-    hsl(240, 2%, 13%);
+
+  --bg-gradient-primary-2: linear-gradient(
+    135deg,
+    hsla(250, 85%, 65%, 0.25),
+    hsla(210, 90%, 60%, 0)
+  );
+
   --border-gradient-onyx: linear-gradient(
     to bottom right,
-    hsl(0, 0%, 25%) 0%,
-    hsla(0, 0%, 25%, 0) 50%
+    hsla(230, 20%, 40%, 0.5),
+    hsla(230, 20%, 40%, 0)
   );
-  --text-gradient-yellow: linear-gradient(
+
+  --text-gradient-primary: linear-gradient(
     to right,
-    hsl(45, 100%, 72%),
-    hsl(35, 100%, 68%)
+    hsl(250, 85%, 65%),
+    hsl(210, 90%, 60%)
   );
 
-  /* solid */
+  /* ====== SOLID COLORS ====== */
+  --jet: hsl(230, 18%, 28%);
+  --onyx: hsl(230, 25%, 18%);
+  --eerie-black-1: hsl(230, 30%, 12%);
+  --eerie-black-2: hsl(230, 25%, 14%);
+  --smoky-black: hsl(230, 30%, 8%);
 
-  --jet: hsl(0, 0%, 22%);
-  --onyx: hsl(240, 1%, 17%);
-  --eerie-black-1: hsl(240, 2%, 13%);
-  --eerie-black-2: hsl(240, 2%, 12%);
-  --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
-  --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(45, 100%, 72%);
-  --vegas-gold: hsl(45, 54%, 58%);
-  --light-gray: hsl(0, 0%, 84%);
-  --light-gray-70: hsla(0, 0%, 84%, 0.7);
-  --bittersweet-shimmer: hsl(0, 43%, 51%);
+  --white-2: hsl(210, 20%, 96%);
 
-  /**
-   * typography
-   */
+  --primary: hsl(250, 85%, 65%);
+  --primary-soft: hsl(210, 90%, 60%);
+  --vegas-gold: hsl(220, 60%, 65%);
 
-  /* font-family */
+  --light-gray: hsl(210, 15%, 85%);
+  --light-gray-70: hsla(210, 15%, 85%, 0.7);
+  --error: hsl(0, 70%, 55%);
+
+  /* ====== TYPOGRAPHY ====== */
   --ff-poppins: "Poppins", sans-serif;
 
-  /* font-size */
   --fs-1: 24px;
   --fs-2: 18px;
   --fs-3: 17px;
@@ -82,29 +79,23 @@
   --fs-7: 13px;
   --fs-8: 11px;
 
-  /* font-weight */
   --fw-300: 300;
   --fw-400: 400;
   --fw-500: 500;
   --fw-600: 600;
 
-  /**
-   * shadow
-   */
+  /* ====== SHADOWS ====== */
+  --shadow-1: 0 10px 30px rgba(0, 0, 0, 0.35);
+  --shadow-2: 0 20px 40px rgba(0, 0, 0, 0.35);
+  --shadow-3: 0 25px 60px rgba(0, 0, 0, 0.4);
+  --shadow-4: 0 30px 80px rgba(0, 0, 0, 0.45);
+  --shadow-5: 0 40px 120px rgba(0, 0, 0, 0.5);
 
-  --shadow-1: -4px 8px 24px hsla(0, 0%, 0%, 0.25);
-  --shadow-2: 0 16px 30px hsla(0, 0%, 0%, 0.25);
-  --shadow-3: 0 16px 40px hsla(0, 0%, 0%, 0.25);
-  --shadow-4: 0 25px 50px hsla(0, 0%, 0%, 0.15);
-  --shadow-5: 0 24px 80px hsla(0, 0%, 0%, 0.25);
-
-  /**
-   * transition
-   */
-
+  /* ====== TRANSITIONS ====== */
   --transition-1: 0.25s ease;
-  --transition-2: 0.5s ease-in-out;
+  --transition-2: 0.45s cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 /*-----------------------------------*\
   #RESET
@@ -152,12 +143,13 @@ textarea {
 }
 
 ::selection {
-  background: var(--orange-yellow-crayola);
+  background: var(--primary);
   color: var(--smoky-black);
 }
 
 :focus {
-  outline-color: var(--orange-yellow-crayola);
+  outline-color: var(--primary
+);
 }
 
 html {
@@ -199,7 +191,7 @@ article {
   justify-content: center;
   align-items: center;
   font-size: 16px;
-  color: var(--orange-yellow-crayola);
+  color: var(--primary);
   box-shadow: var(--shadow-1);
   z-index: 1;
 }
@@ -272,7 +264,7 @@ article.active {
   left: 0;
   width: 30px;
   height: 3px;
-  background: var(--text-gradient-yellow);
+  background: var(--text-gradient-primary);
   border-radius: 3px;
 }
 
@@ -287,7 +279,7 @@ article.active {
 }
 
 .has-scrollbar::-webkit-scrollbar-thumb {
-  background: var(--orange-yellow-crayola);
+  background: var(--primary);
   border-radius: 5px;
 }
 
@@ -372,7 +364,8 @@ main {
   right: -15px;
   border-radius: 0 15px;
   font-size: 13px;
-  color: var(--orange-yellow-crayola);
+  color: var(--primary
+);
   background: var(--border-gradient-onyx);
   padding: 10px;
   box-shadow: var(--shadow-2);
@@ -505,7 +498,8 @@ main {
 }
 
 .navbar-link.active {
-  color: var(--orange-yellow-crayola);
+  color: var(--primary
+);
 }
 
 /*-----------------------------------*\
@@ -599,7 +593,8 @@ main {
 }
 
 .testimonials-role {
-  color: var(--orange-yellow-crayola);
+  color: var(--primary
+);
   font-size: 0.9rem;
   margin-top: 10px;
   margin-bottom: 20px;
@@ -874,7 +869,8 @@ main {
   left: -33px;
   height: 6px;
   width: 6px;
-  background: var(--text-gradient-yellow);
+  background: var(--text-gradient-primary
+);
   border-radius: 50%;
   box-shadow: 0 0 0 4px var(--jet);
 }
@@ -926,7 +922,8 @@ main {
 }
 
 .skill-progress-fill {
-  background: var(--text-gradient-yellow);
+  background: var(--text-gradient-primary
+);
   height: 100%;
   border-radius: inherit;
 }
@@ -1056,7 +1053,8 @@ main {
   --scale: 0.8;
 
   background: var(--jet);
-  color: var(--orange-yellow-crayola);
+  color: var(--primary
+);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1190,7 +1188,8 @@ main {
 }
 
 .blog-post-item > a:hover .blog-item-title {
-  color: var(--orange-yellow-crayola);
+  color: var(--primary
+);
 }
 
 .blog-text {
@@ -1255,7 +1254,8 @@ main {
 }
 
 .form-input:focus {
-  border-color: var(--orange-yellow-crayola);
+  border-color: var(--primary
+);
 }
 
 textarea.form-input {
@@ -1278,7 +1278,8 @@ textarea.form-input::-webkit-resizer {
   position: relative;
   width: 100%;
   background: var(--border-gradient-onyx);
-  color: var(--orange-yellow-crayola);
+  color: var(--primary
+);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1766,7 +1767,8 @@ textarea.form-input::-webkit-resizer {
   }
 
   .filter-item button.active {
-    color: var(--orange-yellow-crayola);
+    color: var(--primary
+);
   }
 
   /* portfolio and blog grid */
